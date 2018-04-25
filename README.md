@@ -1,8 +1,23 @@
+# :heavy_exclamation_mark::heavy_exclamation_mark::heavy_exclamation_mark: THIS PROJECT IS WIP AND WILL BE MAINTAINED:tm: :heavy_exclamation_mark::heavy_exclamation_mark::heavy_exclamation_mark:
+
+## Todo:
+- Create Project :white_check_mark:
+- Add proper TSLint :white_check_mark:
+- Check through all files :x:
+- Add Tests :x:
+- Set-up CI ([CircleCI](https://github.com/marketplace/circleci) / [Travis CI](https://github.com/marketplace/travis-ci)) :x:
+- Set-up auto dependency update ([Greenkeeper](https://github.com/marketplace/greenkeeper) / [Gemnasium](https://github.com/marketplace/gemnasium) / [Renovate](https://github.com/marketplace/renovate/)) :x:
+- Set-up security management ([Snyk](https://github.com/marketplace/snyk))
+- Set-up code quality management ([Codefactor](https://github.com/marketplace/codefactor) / [StyleCI](https://github.com/marketplace/styleci))
+- Code coverage? ([Codecov](https://github.com/marketplace/codecov))
+
+
 # electron-react-typescript-starter
 
 This is a modificiation of the great [electron-react-boilerplate](https://github.com/iRath96/electron-react-typescript-boilerplate).
 
-[Electron](http://electron.atom.io/) application boilerplate based on [React](https://facebook.github.io/react/), [Redux](https://github.com/reactjs/redux), [React Router](https://github.com/reactjs/react-router), [Webpack](http://webpack.github.io/docs/), [React Transform HMR](https://github.com/gaearon/react-transform-hmr) and [TypeScript](https://github.com/Microsoft/TypeScript) for rapid application development
+[Electron](http://electron.atom.io/) application boilerplate based on [React](https://facebook.github.io/react), [Redux](https://github.com/reactjs/redux), [React Router](https://github.com/reactjs/react-router), [Webpack](http://webpack.github.io/docs/), [React Transform HMR](https://github.com/gaearon/react-transform-hmr) and [TypeScript](https://github.com/Microsoft/TypeScript) for rapid application development.
+In addition to that, [Jest](https://github.com/facebook/jest), [TSLint](https://github.com/palantir/tslint) and [Sass](https://sass-lang.com)
 
 ## Run
 Run this command to start the app
