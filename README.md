@@ -14,6 +14,8 @@
 
 # electron-react-typescript-starter
 
+[![CircleCI](https://circleci.com/gh/niederschlag/electron-react-typescript-starter/tree/master.svg?style=svg)](https://circleci.com/gh/niederschlag/electron-react-typescript-starter/tree/master)
+
 This is a modificiation of the great [electron-react-boilerplate](https://github.com/iRath96/electron-react-typescript-boilerplate).
 
 [Electron](http://electron.atom.io/) application boilerplate based on [React](https://facebook.github.io/react), [Redux](https://github.com/reactjs/redux), [React Router](https://github.com/reactjs/react-router), [Webpack](http://webpack.github.io/docs/), [React Transform HMR](https://github.com/gaearon/react-transform-hmr) and [TypeScript](https://github.com/Microsoft/TypeScript) for rapid application development.
