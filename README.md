@@ -5,7 +5,7 @@
 - Add proper TSLint :white_check_mark:
 - Check through all files :x:
 - Add Tests :x:
-- Set-up CI ([CircleCI](https://github.com/marketplace/circleci) / [Travis CI](https://github.com/marketplace/travis-ci)) :x:
+- Set-up CI ([CircleCI](https://github.com/marketplace/circleci)) :white_check_mark:
 - Set-up auto dependency update ([Greenkeeper](https://github.com/marketplace/greenkeeper) / [Gemnasium](https://github.com/marketplace/gemnasium) / [Renovate](https://github.com/marketplace/renovate/)) :x:
 - Set-up security management ([Snyk](https://github.com/marketplace/snyk))
 - Set-up code quality management ([Codefactor](https://github.com/marketplace/codefactor) / [StyleCI](https://github.com/marketplace/styleci))
@@ -14,7 +14,7 @@
 
 # electron-react-typescript-starter
 
-[![CircleCI](https://circleci.com/gh/niederschlag/electron-react-typescript-starter/tree/master.svg?style=svg)](https://circleci.com/gh/niederschlag/electron-react-typescript-starter/tree/master)
+[![CircleCI](https://circleci.com/gh/niederschlag/electron-react-typescript-starter/tree/master.svg?style=svg)](https://circleci.com/gh/niederschlag/electron-react-typescript-starter/tree/master) [![Known Vulnerabilities](https://snyk.io/test/github/niederschlag/electron-react-typescript-starter/badge.svg?targetFile=package.json)](https://snyk.io/test/github/niederschlag/electron-react-typescript-starter?targetFile=package.json)
 
 This is a modificiation of the great [electron-react-boilerplate](https://github.com/iRath96/electron-react-typescript-boilerplate).
 
