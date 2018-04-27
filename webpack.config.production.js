@@ -8,6 +8,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const merge = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const baseConfig = require('./webpack.config.base');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = merge.smart(baseConfig, {
 	devtool: 'cheap-module-source-map',
@@ -110,7 +111,7 @@ module.exports = merge.smart(baseConfig, {
 
 		new ExtractTextPlugin('style.css'),
 
-		new UglifyJSPlugin({
+		new UglifyJsPlugin({
 			parallel: true,
 			sourceMap: true
 		}),

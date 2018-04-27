@@ -2,6 +2,8 @@
   "name": "electron-react-typescript-starter",
   "version": "1.0.0",
   "main": "main.js",
+  "description": "An easy, fast and up-to-date starter codebase for using Electron, React and Typescript together",
+  "author": "niederschlag",
   "scripts": {
     "test": "cross-env NODE_ENV=test node --trace-warnings ./test/runTests.js",
     "test-all": "npm run test && npm run build && npm run test-e2e",
@@ -133,6 +135,7 @@
     "tslint": "^5.4.3",
     "tslint-config-prettier": "^1.12.0",
     "typescript": "^2.4.1",
+    "uglifyjs-webpack-plugin": "1.2.5",
     "url-loader": "^0.6.1",
     "webpack": "^3.3.0",
     "webpack-dev-middleware": "^2.0.3",
