@@ -6,7 +6,7 @@ const webpack = require('webpack');
 const merge = require('webpack-merge');
 const baseConfig = require('./webpack.config.base');
 
-module.exports = merge(baseConfig, {
+module.exports = merge.smart(baseConfig, {
 	devtool: 'source-map',
 
 	entry: ['./app/main.development'],

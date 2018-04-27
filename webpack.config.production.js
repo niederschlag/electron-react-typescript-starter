@@ -9,7 +9,7 @@ const merge = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const baseConfig = require('./webpack.config.base');
 
-module.exports = merge(baseConfig, {
+module.exports = merge.smart(baseConfig, {
 	devtool: 'cheap-module-source-map',
 
 	entry: [
@@ -109,6 +109,11 @@ module.exports = merge(baseConfig, {
 		}),
 
 		new ExtractTextPlugin('style.css'),
+
+		new UglifyJSPlugin({
+			parallel: true,
+			sourceMap: true
+		}),
 
 		new HtmlWebpackPlugin({
 			filename: '../app.html',

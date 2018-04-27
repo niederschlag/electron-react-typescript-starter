@@ -10,7 +10,7 @@ const baseConfig = require('./webpack.config.base');
 
 const port = process.env.PORT || 3000;
 
-module.exports = merge(baseConfig, {
+module.exports = merge.smart(baseConfig, {
 	devtool: 'inline-source-map',
 
 	entry: [

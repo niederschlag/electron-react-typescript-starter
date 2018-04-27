@@ -1,8 +1,6 @@
 {
-  "name": "electron-react-typescript-boilerplate",
-  "productName": "ElectronReactTypescript",
-  "version": "0.10.0",
-  "description": "Electron application boilerplate based on TypeScript, React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "electron-react-typescript-starter",
+  "version": "1.0.0",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test node --trace-warnings ./test/runTests.js",
@@ -45,8 +43,8 @@
     ]
   },
   "build": {
-    "productName": "ElectronReactTypescript",
-    "appId": "io.github.irath96.ElectronReactTypescript",
+    "productName": "ElectronReactTypescriptStarter",
+    "appId": "io.github.niederschlag.ElectronReactTypescriptStarter",
     "dmg": {
       "contents": [
         {
@@ -87,29 +85,7 @@
   "bin": {
     "electron": "./node_modules/.bin/electron"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/irath96/electron-react-typescript-boilerplate.git"
-  },
-  "author": {
-    "name": "Alexander Rath",
-    "email": "irath96@gmail.com",
-    "url": "https://github.com/irath96"
-  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/irath96/electron-react-typescript-boilerplate/issues"
-  },
-  "keywords": [
-    "electron",
-    "boilerplate",
-    "react",
-    "react-router",
-    "flux",
-    "webpack",
-    "react-hot"
-  ],
-  "homepage": "https://github.com/irath96/electron-react-typescript-boilerplate#readme",
   "devDependencies": {
     "@types/enzyme": "^3.1.1",
     "@types/history": "^4.5.2",
@@ -178,7 +154,7 @@
     "source-map-support": "^0.5.0"
   },
   "devEngines": {
-    "node": ">=6.x",
-    "npm": ">=3.x"
+    "node": ">=8.x",
+    "npm": ">=5.x"
   }
 }
