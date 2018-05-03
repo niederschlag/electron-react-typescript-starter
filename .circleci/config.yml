@@ -22,14 +22,10 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           name: Restore Yarn Package Cache
-          keys:
-            - yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
-            - yarn-packages-{{ .Branch }}
-            - yarn-packages-master
-            - yarn-packages-
+          key: yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
 
       - run:
-          name: Install Dependencies
+          name: Install Dependencies and Build
           command: yarn install
 
       - save_cache:
