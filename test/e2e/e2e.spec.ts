@@ -21,20 +21,21 @@ describe('main window', function spec() {
         }
     });
 
-    const findCounter = () => app.client.element('[data-tid="counter"]');
+    const findCounter = () => app.client.element('[data-e2eid="counter"]');
 
     const findButtons = async () => {
-        const {value} = await app.client.elements('[data-tclass="btn"]');
+        const {value} = await app.client.elements('[data-e2eclass="btn"]');
         return value.map((btn: any) => btn.ELEMENT);
     };
 
     it('should open window', async () => {
-        const {client, browserWindow} = app;
+        const {client} = app;
 
         await client.waitUntilWindowLoaded();
         await delay(500);
-        const title = await browserWindow.getTitle();
-        expect(title).toBe('Hello Electron React!');
+        await client.getWindowCount().then((count: any) => {
+            expect(count).toBe(1)
+        })
     });
 
     it('should not have any logs in console of main window', async () => {
@@ -51,8 +52,9 @@ describe('main window', function spec() {
 
     it('should navigate to Counter by "to Counter" link', async () => {
         const {client} = app;
+        client.execute("document.getElementById('e2e').click()");
 
-        await client.click('[data-tid="container"] > a');
+        // await client.click('[data-tid="container"] > #e2e');
         await delay(100);
         expect(await findCounter().getText()).toBe('0');
     });
@@ -102,9 +104,7 @@ describe('main window', function spec() {
 
     it('should navigate to home using back button', async () => {
         const {client} = app;
-        await client.element(
-            '[data-tid="backButton"] > a'
-        ).click();
+        await client.element('[data-e2eid="backButton"]').click();
         await delay(100);
 
         expect(
