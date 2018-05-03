@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run:
-          name: Installing Dependencies
+          name: Install Dependencies
           command: yarn install
 
       - save_cache:
@@ -35,17 +35,16 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      # run tests!
       - run:
-          name: Building Package
+          name: Build Package
           command: yarn build
 
       - run:
-          name: Testing normal tests
+          name: Run Normal Tests
           command: yarn test
 
       - run:
-          name: Testing e2e tests
+          name: Run E2E Tests
           command: yarn test-e2e
 
 
