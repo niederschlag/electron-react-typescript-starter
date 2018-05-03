@@ -5,7 +5,7 @@ const {Application} = require('spectron');
 
 const delay = (time: number) => new Promise(resolve => setTimeout(resolve, time));
 
-describe('main window', function spec() {
+describe('e2e page', function spec() {
     let app: any;
     beforeAll(async () => {
         app = new Application({

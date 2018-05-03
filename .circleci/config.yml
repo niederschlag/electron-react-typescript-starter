@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:8.11.1
+      - image: circleci/node:8.11.1-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -26,7 +26,9 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run: yarn install
+      - run:
+          name: Installing Dependencies
+          command: yarn install
 
       - save_cache:
           paths:
@@ -34,6 +36,16 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: yarn test-all
+      - run:
+          name: Building Package
+          command: yarn build
+
+      - run:
+          name: Testing normal tests
+          command: yarn test
+
+      - run:
+          name: Testing e2e tests
+          command: yarn test-e2e
 
 
