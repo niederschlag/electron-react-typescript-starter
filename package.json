@@ -105,7 +105,7 @@
     "asar": "0.14.0",
     "boiler-room-custodian": "0.6.2",
     "concurrently": "3.5.0",
-    "cross-env": "5.0.5",
+    "cross-env": "5.2.0",
     "css-loader": "0.28.7",
     "css-modules-require-hook": "4.1.0",
     "devtron": "1.4.0",
