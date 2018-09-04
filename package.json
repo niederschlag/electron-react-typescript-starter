@@ -109,7 +109,7 @@
     "css-loader": "0.28.7",
     "css-modules-require-hook": "4.1.0",
     "devtron": "1.4.0",
-    "electron": "1.8.4",
+    "electron": "1.8.8",
     "electron-builder": "19.28.1",
     "electron-builder-http": "19.27.5",
     "electron-devtools-installer": "2.2.0",
