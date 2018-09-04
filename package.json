@@ -110,7 +110,7 @@
     "css-modules-require-hook": "4.1.0",
     "devtron": "1.4.0",
     "electron": "1.8.4",
-    "electron-builder": "19.28.1",
+    "electron-builder": "19.56.2",
     "electron-builder-http": "19.27.5",
     "electron-devtools-installer": "2.2.0",
     "enzyme": "3.0.0",
