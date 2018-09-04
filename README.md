@@ -1,5 +1,3 @@
-# :heavy_exclamation_mark::heavy_exclamation_mark::heavy_exclamation_mark: THIS PROJECT IS WIP AND WILL BE MAINTAINED:tm: :heavy_exclamation_mark::heavy_exclamation_mark::heavy_exclamation_mark:
-
 ## Todo:
 - Create Project :white_check_mark:
 - Add proper TSLint :white_check_mark:
