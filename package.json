@@ -107,7 +107,7 @@
     "concurrently": "3.5.0",
     "cross-env": "5.0.5",
     "css-loader": "0.28.7",
-    "css-modules-require-hook": "4.1.0",
+    "css-modules-require-hook": "4.2.3",
     "devtron": "1.4.0",
     "electron": "1.8.4",
     "electron-builder": "19.28.1",
