@@ -102,7 +102,7 @@
     "@types/react-router-redux": "5.0.8",
     "@types/redux-logger": "3.0.3",
     "@types/sinon": "4.1.2",
-    "asar": "0.14.0",
+    "asar": "0.14.6",
     "boiler-room-custodian": "0.6.2",
     "concurrently": "3.5.0",
     "cross-env": "5.0.5",
