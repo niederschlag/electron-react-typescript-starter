@@ -100,7 +100,7 @@
     "@types/react-router": "4.0.15",
     "@types/react-router-dom": "4.0.7",
     "@types/react-router-redux": "5.0.8",
-    "@types/redux-logger": "3.0.3",
+    "@types/redux-logger": "3.0.7",
     "@types/sinon": "4.1.2",
     "asar": "0.14.0",
     "boiler-room-custodian": "0.6.2",
