@@ -114,7 +114,7 @@
     "electron-builder-http": "19.27.5",
     "electron-devtools-installer": "2.2.0",
     "enzyme": "3.0.0",
-    "enzyme-adapter-react-16": "1.0.0",
+    "enzyme-adapter-react-16": "1.11.2",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
     "file-loader": "1.1.5",
