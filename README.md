@@ -1,15 +1,3 @@
-## Todo:
-- Create Project :white_check_mark:
-- Add proper TSLint :white_check_mark:
-- Check through all files :white_check_mark:
-- Add Tests :white_check_mark:
-- Set-up CI ([CircleCI](https://github.com/marketplace/circleci)) :white_check_mark:
-- Set-up auto dependency update ([Greenkeeper](https://github.com/marketplace/greenkeeper) / [Gemnasium](https://github.com/marketplace/gemnasium) / [Renovate](https://github.com/marketplace/renovate/)) :white_check_mark:
-- Set-up security management ([Snyk](https://github.com/marketplace/snyk)) :white_check_mark:
-- Set-up code quality management ([Codefactor](https://github.com/marketplace/codefactor) / [StyleCI](https://github.com/marketplace/styleci))
-- Code coverage? ([Codecov](https://github.com/marketplace/codecov))
-
-
 # electron-react-typescript-starter
 
 [![CircleCI](https://circleci.com/gh/niederschlag/electron-react-typescript-starter/tree/master.svg?style=svg)](https://circleci.com/gh/niederschlag/electron-react-typescript-starter/tree/master) [![Known Vulnerabilities](https://snyk.io/test/github/niederschlag/electron-react-typescript-starter/badge.svg?targetFile=package.json)](https://snyk.io/test/github/niederschlag/electron-react-typescript-starter?targetFile=package.json)
